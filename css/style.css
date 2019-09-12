@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+.bg-img {
+    background: url(../images/main-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.wrapper {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+h1 {
+    width: 200px;
+}
+
+.g-nav {
+    display: flex;
+}
+
+.g-nav li {
+    list-style: none;
+    margin-left: 10px;
+}
+
+.top section {
+    text-align: center;
+}
